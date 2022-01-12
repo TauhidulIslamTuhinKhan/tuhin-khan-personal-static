@@ -14,7 +14,7 @@ const Sidebar = () => {
     const behanceIcon = <FontAwesomeIcon icon={faBehance} />
     let activeStyle = {
         fontWeight: "bold",
-        color: "red"
+        color: "#E3872D"
     };
     return (
         <div className='side-bar'>
