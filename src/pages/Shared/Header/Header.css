@@ -1,0 +1,22 @@
+.header-menu {
+    background-color: var(--bf-fifth);
+}
+
+.logo-image {
+    width: 150px;
+}
+
+.header-text {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bf-white);
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+.header-text:hover {
+    color: var(--bf-sixth);
+}

@@ -1,0 +1,61 @@
+.side-bar {
+    width: 250px;
+    min-height: 100vh;
+    background-color: var(--bf-fifth);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+.side-logo-image {
+    width: 200px;
+}
+
+hr {
+    color: var(--bf-white);
+    margin: 0;
+}
+
+.side-bar-menu {
+    padding-top: 10px;
+}
+
+.side-bar-text {
+    text-decoration: none;
+    display: block;
+    margin: 15px 0;
+    font-size: 16px;
+    font-weight: 600;
+    padding-left: 30px;
+    color: var(--bf-white);
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+
+
+.side-bar-text:hover {
+    color: var(--bf-sixth);
+}
+
+/* .side-bar {
+    position: relative;
+} */
+
+.side-bar .social-icon {
+    position: absolute;
+    left: 30px;
+    bottom: 50px;
+}
+
+.side-bar .social-icon span {
+    margin-right: 15px;
+    font-size: 18px;
+    color: var(--bf-white);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.side-bar .social-icon span:hover {
+    color: var(--bf-sixth);
+}

@@ -1,0 +1,47 @@
+.contact-area .icon-div {
+    margin-right: 15px;
+}
+
+.contact-area .text-color {
+    color: var(--bf-secondary);
+}
+
+.contact-area .icon-div span {
+    color: var(--bf-fifth);
+    font-size: 30px;
+}
+
+
+
+
+
+.contact-form input {
+    width: 100%;
+    margin: 5px 0;
+    padding: 7px 0 7px 10px;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+.contact-form textarea {
+    width: 100%;
+    margin: 5px 0;
+    padding: 7px 0 7px 10px;
+    border: 0;
+    border-bottom: 1px solid #000;
+}
+
+.contact-form .button-primary {
+    outline: 0;
+    width: 30%;
+    margin: 15px 0;
+}
+
+
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .contact-form .button-primary {
+        width: 55%;
+    }
+
+}

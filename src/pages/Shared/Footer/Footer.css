@@ -1,0 +1,7 @@
+.footer-area {
+    background-color: var(--bf-fifth);
+}
+
+.footer-area p {
+    color: var(--bf-white);
+}
