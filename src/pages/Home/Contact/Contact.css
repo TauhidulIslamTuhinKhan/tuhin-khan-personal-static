@@ -41,7 +41,7 @@
 /* small mobile :320px. */
 @media (max-width: 767px) {
     .contact-form .button-primary {
-        width: 55%;
+        width: 70%;
     }
 
 }

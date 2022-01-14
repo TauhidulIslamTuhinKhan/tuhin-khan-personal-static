@@ -82,3 +82,9 @@
     font-weight: 600;
     color: var(--bf-secondary);
 }
+/* small mobile :320px. */
+@media (max-width: 767px) {
+    .achivement .staright-line::after {
+        display: none;
+    }
+}

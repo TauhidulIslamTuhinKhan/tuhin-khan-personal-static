@@ -15,7 +15,7 @@ const News = () => {
                 </div>
                 <div className="row">
                     <div className="col-lg-4">
-                        <Card>
+                        <Card className='mb-4'>
                             <Card.Img variant="top" src={news1} />
                             <Card.Body>
                                 <p>January 10, 2022</p>
@@ -28,7 +28,7 @@ const News = () => {
                         </Card>
                     </div>
                     <div className="col-lg-4">
-                        <Card>
+                        <Card className='mb-4'>
                             <Card.Img variant="top" src={news2} />
                             <Card.Body>
                                 <p>January 10, 2022</p>
@@ -41,7 +41,7 @@ const News = () => {
                         </Card>
                     </div>
                     <div className="col-lg-4">
-                        <Card>
+                        <Card className='mb-4'>
                             <Card.Img variant="top" src={news3} />
                             <Card.Body>
                                 <p>January 10, 2022</p>
